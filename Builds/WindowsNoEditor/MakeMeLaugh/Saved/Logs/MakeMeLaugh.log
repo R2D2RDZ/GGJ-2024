@@ -1,4 +1,4 @@
-﻿Log file open, 01/27/24 12:19:43
+﻿Log file open, 01/28/24 11:34:36
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -18,10 +18,10 @@ LogPakFile: PakFile PathHashIndexSize=56575
 LogPakFile: PakFile FullDirectoryIndexSize=88076
 LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile '../../../MakeMeLaugh/Content/Paks/MakeMeLaugh-WindowsNoEditor.pak' (chunk index -1, root '../../../') mounted
 LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:../../../ File:../../../MakeMeLaugh/Content/Paks/MakeMeLaugh-WindowsNoEditor.pak)
-LogPakFile: OnPakFileMounted2Time == 0.004769
+LogPakFile: OnPakFileMounted2Time == 0.001240
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.846813
+LogStats: Stats thread started at 0.526889
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogInit: Display: Loading text-based GConfig....
 LogPluginManager: Mounting plugin Paper2D
@@ -147,7 +147,7 @@ LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.27
 LogInit: Command Line: 
-LogInit: Base Directory: E:/Builds/WindowsNoEditor/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/EpicGames/Unreal Projects/Git GGJ/GGJ-2024/Builds/WindowsNoEditor/Engine/Binaries/Win64/
 LogInit: Allocator: binned2
 LogInit: Installed Engine Build: 0
 LogDevObjectVersion: Number of dev versions registered: 29
@@ -201,695 +201,644 @@ LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
 LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
-[2024.01.27-18.19.44:453][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2024.01.27-18.19.44:453][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2024.01.27-18.19.44:453][  0]LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Engine.ini]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Engine.ini]
-[2024.01.27-18.19.44:458][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Engine.ini]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Engine.ini]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
-[2024.01.27-18.19.44:458][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Engine.ini]
-[2024.01.27-18.19.44:495][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2024.01.27-18.19.44:495][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
-[2024.01.27-18.19.44:496][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
-[2024.01.27-18.19.44:498][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.01.27-18.19.44:498][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2024.01.27-18.19.44:498][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2024.01.27-18.19.44:498][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.01.27-18.19.44:498][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
-[2024.01.27-18.19.44:498][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
-[2024.01.27-18.19.44:498][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
-[2024.01.27-18.19.44:502][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
-[2024.01.27-18.19.44:502][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
-[2024.01.27-18.19.44:502][  0]LogHAL: Display: Platform has ~ 16 GB [17032310784 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2024.01.27-18.19.44:503][  0]LogInit: Going up to parent DeviceProfile [Windows]
-[2024.01.27-18.19.44:503][  0]LogInit: Going up to parent DeviceProfile []
-[2024.01.27-18.19.44:503][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.01.27-18.19.44:503][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2024.01.27-18.19.44:503][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2024.01.27-18.19.44:503][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.01.27-18.19.44:503][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2024.01.27-18.19.44:503][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.01.27-18.19.44:503][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2024.01.27-18.19.44:503][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2024.01.27-18.19.44:503][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2024.01.27-18.19.44:503][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2024.01.27-18.19.44:503][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2024.01.27-18.19.44:503][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2024.01.27-18.19.44:503][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2024.01.27-18.19.44:503][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2024.01.27-18.19.44:503][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2024.01.27-18.19.44:503][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2024.01.27-18.19.44:503][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2024.01.27-18.19.44:504][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.01.27-18.19.44:505][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
-[2024.01.27-18.19.44:505][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
-[2024.01.27-18.19.44:505][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
-[2024.01.27-18.19.44:505][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2024.01.27-18.19.44:505][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2024.01.27-18.19.44:505][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2024.01.27-18.19.44:505][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2024.01.27-18.19.44:505][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Engine.ini]
-[2024.01.27-18.19.44:505][  0]LogInit: Computer: R2D2RDZ
-[2024.01.27-18.19.44:505][  0]LogInit: User: R2D2R
-[2024.01.27-18.19.44:505][  0]LogInit: CPU Page size=4096, Cores=4
-[2024.01.27-18.19.44:505][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2024.01.27-18.19.44:505][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2024.01.27-18.19.44:505][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
-[2024.01.27-18.19.44:505][  0]LogMemory: Process Physical Memory: 93.37 MB used, 93.37 MB peak
-[2024.01.27-18.19.44:505][  0]LogMemory: Process Virtual Memory: 81.23 MB used, 81.23 MB peak
-[2024.01.27-18.19.44:505][  0]LogMemory: Physical Memory: 8875.75 MB used,  7367.53 MB free, 16243.28 MB total
-[2024.01.27-18.19.44:505][  0]LogMemory: Virtual Memory: 134199384.00 MB used,  18347.76 MB free, 134217728.00 MB total
-[2024.01.27-18.19.44:512][  0]LogWindows: WindowsPlatformFeatures enabled
-[2024.01.27-18.19.45:168][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2024.01.27-18.19.45:170][  0]LogInit: Using OS detected language (en-US).
-[2024.01.27-18.19.45:170][  0]LogInit: Using OS detected locale (en-US).
-[2024.01.27-18.19.45:170][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2024.01.27-18.19.45:252][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
-[2024.01.27-18.19.45:394][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2024.01.27-18.19.45:394][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2024.01.27-18.19.45:496][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
-[2024.01.27-18.19.45:528][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2024.01.27-18.19.45:528][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2024.01.27-18.19.45:528][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2024.01.27-18.19.45:528][  0]LogD3D11RHI: D3D11 adapters:
-[2024.01.27-18.19.45:609][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
-[2024.01.27-18.19.45:609][  0]LogD3D11RHI:       128/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2024.01.27-18.19.45:615][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2024.01.27-18.19.45:615][  0]LogD3D11RHI:       0/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2024.01.27-18.19.45:615][  0]LogD3D11RHI: Chosen D3D11 Adapter:
-[2024.01.27-18.19.45:615][  0]LogD3D11RHI:     Description : Intel(R) UHD Graphics 620
-[2024.01.27-18.19.45:615][  0]LogD3D11RHI:     VendorId    : 8086
-[2024.01.27-18.19.45:615][  0]LogD3D11RHI:     DeviceId    : 5917
-[2024.01.27-18.19.45:615][  0]LogD3D11RHI:     SubSysId    : 8161028
-[2024.01.27-18.19.45:615][  0]LogD3D11RHI:     Revision    : 0007
-[2024.01.27-18.19.45:615][  0]LogD3D11RHI:     DedicatedVideoMemory : 134217728 bytes
-[2024.01.27-18.19.45:615][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
-[2024.01.27-18.19.45:615][  0]LogD3D11RHI:     SharedSystemMemory : 8516155392 bytes
-[2024.01.27-18.19.45:615][  0]LogD3D11RHI:     AdapterLuid : 0 99821
-[2024.01.27-18.19.45:626][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2024.01.27-18.19.45:626][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
-[2024.01.27-18.19.45:626][  0]LogWindows: EnumDisplayDevices:
-[2024.01.27-18.19.45:626][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
-[2024.01.27-18.19.45:626][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2024.01.27-18.19.45:626][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2024.01.27-18.19.45:627][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2024.01.27-18.19.45:627][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
-[2024.01.27-18.19.45:627][  0]LogD3D11RHI:   Driver Version: 27.20.100.9171 (internal:27.20.100.9171, unified:27.20.100.9171)
-[2024.01.27-18.19.45:627][  0]LogD3D11RHI:      Driver Date: 1-8-2021
-[2024.01.27-18.19.45:627][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
-[2024.01.27-18.19.45:766][  0]LogD3D11RHI: Creating D3DDevice using adapter:
-[2024.01.27-18.19.45:766][  0]LogD3D11RHI:     Description : Intel(R) UHD Graphics 620
-[2024.01.27-18.19.45:766][  0]LogD3D11RHI:     VendorId    : 8086
-[2024.01.27-18.19.45:766][  0]LogD3D11RHI:     DeviceId    : 5917
-[2024.01.27-18.19.45:766][  0]LogD3D11RHI:     SubSysId    : 8161028
-[2024.01.27-18.19.45:766][  0]LogD3D11RHI:     Revision    : 0007
-[2024.01.27-18.19.45:766][  0]LogD3D11RHI:     DedicatedVideoMemory : 134217728 bytes
-[2024.01.27-18.19.45:766][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
-[2024.01.27-18.19.45:766][  0]LogD3D11RHI:     SharedSystemMemory : 8516155392 bytes
-[2024.01.27-18.19.45:766][  0]LogD3D11RHI:     AdapterLuid : 0 99821
-[2024.01.27-18.19.45:820][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
-[2024.01.27-18.19.45:841][  0]LogD3D11RHI: Intel Extensions support version Full=16777216, Major=1, Minor=0, Revision=0
-[2024.01.27-18.19.45:841][  0]LogD3D11RHI: Intel Extensions support version Full=16777217, Major=1, Minor=0, Revision=1
-[2024.01.27-18.19.45:841][  0]LogD3D11RHI: Intel Extensions Framework enabled
-[2024.01.27-18.19.45:847][  0]LogD3D11RHI: [IntelMetricsDiscovery] Started
-[2024.01.27-18.19.45:847][  0]LogD3D11RHI: Async texture creation enabled
-[2024.01.27-18.19.45:847][  0]LogD3D11RHI: Array index from any shader is supported
-[2024.01.27-18.19.45:937][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
-[2024.01.27-18.19.45:942][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
-[2024.01.27-18.19.45:953][  0]LogShaderLibrary: Display: Using ../../../MakeMeLaugh/Content/ShaderArchive-Global-PCD3D_SM5.ushaderbytecode for material shader code. Total 1951 unique shaders.
-[2024.01.27-18.19.45:953][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
-[2024.01.27-18.19.45:953][  0]LogShaderLibrary: Display: Logical shader library 'Global' has been created, components 1
-[2024.01.27-18.19.45:953][  0]LogTemp: Warning: Clearing the OS Cache
-[2024.01.27-18.19.45:953][  0]LogODSC: ODSC Thread active.
-[2024.01.27-18.19.46:040][  0]LogPakFile: New pak file ../../../MakeMeLaugh/Content/Paks/MakeMeLaugh-WindowsNoEditor.pak added to pak precacher.
-[2024.01.27-18.19.46:197][  0]LogSlate: Using FreeType 2.10.0
-[2024.01.27-18.19.46:206][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2024.01.27-18.19.46:419][  0]LogShaderLibrary: Display: Using ../../../MakeMeLaugh/Content/ShaderArchive-MakeMeLaugh-PCD3D_SM5.ushaderbytecode for material shader code. Total 2680 unique shaders.
-[2024.01.27-18.19.46:419][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library MakeMeLaugh
-[2024.01.27-18.19.46:419][  0]LogShaderLibrary: Display: Logical shader library 'MakeMeLaugh' has been created, components 1
-[2024.01.27-18.19.46:424][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
-[2024.01.27-18.19.46:425][  0]LogShaderLibrary: Display: Using ../../../MakeMeLaugh/Content/ShaderArchive-MakeMeLaugh-PCD3D_SM5.ushaderbytecode for material shader code. Total 2680 unique shaders.
-[2024.01.27-18.19.46:425][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library MakeMeLaugh
-[2024.01.27-18.19.46:425][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
-[2024.01.27-18.19.46:425][  0]LogRHI: Display: Failed to open default shader pipeline cache for MakeMeLaugh using shader platform 0.
-[2024.01.27-18.19.46:425][  0]LogRHI: Display: Failed to open default shader pipeline cache for MakeMeLaugh using shader platform 0.
-[2024.01.27-18.19.46:425][  0]LogInit: Using OS detected language (en-US).
-[2024.01.27-18.19.46:425][  0]LogInit: Using OS detected locale (en-US).
-[2024.01.27-18.19.46:425][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2024.01.27-18.19.46:425][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
-[2024.01.27-18.19.46:425][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2024.01.27-18.19.46:425][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2024.01.27-18.19.46:433][  0]LogTextLocalizationManager: Compacting localization data took   0.88ms
-[2024.01.27-18.19.46:433][  0]LogAssetRegistry: FAssetRegistry took 0.0067 seconds to start up
-[2024.01.27-18.19.46:801][  0]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
-[2024.01.27-18.19.46:815][  0]LogPackageLocalizationCache: Processed 26 localized package path(s) for 1 prioritized culture(s) in 0.003594 seconds
-[2024.01.27-18.19.46:842][  0]LogSerialization: Display: AllowBulkDataInIoStore: 'true'
-[2024.01.27-18.19.46:844][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
-[2024.01.27-18.19.46:846][  0]LogInit: Active device profile: [000001EF393AFD00][000001EF2AE3DB70 49] WindowsNoEditor
-[2024.01.27-18.19.46:846][  0]LogInit: Profiles: [000001EF393ADF00][000001EF38B6B6E0 49] Windows, [000001EF393AFD00][000001EF2AE3DB70 49] WindowsNoEditor, 
-[2024.01.27-18.19.46:976][  0]LogNetVersion: MakeMeLaugh 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 4226655505)
-[2024.01.27-18.19.47:376][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2024.01.27-18.19.47:376][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2024.01.27-18.19.47:379][  0]LogHMD: PokeAHoleMaterial loaded successfully
-[2024.01.27-18.19.47:681][  0]LogMoviePlayer: Initializing movie player
-[2024.01.27-18.19.47:710][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: F047690D4CBFAC4CA2FA44B4C66A8FFD | Instance: DC6CBBE94BB12CD1C42C518417213C11 (R2D2RDZ-14988).
-[2024.01.27-18.19.47:730][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2024.01.27-18.19.47:731][  0]LogOcInput: OculusInput pre-init called
-[2024.01.27-18.19.47:742][  0]LogUObjectArray: 15771 objects as part of root set at end of initial load.
-[2024.01.27-18.19.47:742][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
-[2024.01.27-18.19.47:742][  0]LogUObjectAllocator: 3198280 out of 0 bytes used by permanent object pool.
-[2024.01.27-18.19.47:742][  0]LogUObjectArray: CloseDisregardForGC: 15771/15771 objects in disregard for GC pool
-[2024.01.27-18.19.47:751][  0]LogEngine: Initializing Engine...
-[2024.01.27-18.19.47:877][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
-[2024.01.27-18.19.47:880][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2024.01.27-18.19.47:891][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.004 s
-[2024.01.27-18.19.48:041][  0]LogInit: Initializing FReadOnlyCVARCache
-[2024.01.27-18.19.48:041][  0]LogAudio: Display: Initializing Audio Device Manager...
-[2024.01.27-18.19.48:042][  0]LogAudio: Display: Loading Default Audio Settings Objects...
-[2024.01.27-18.19.48:044][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
-[2024.01.27-18.19.48:044][  0]LogAudio: Display: Audio Device Manager Initialized
-[2024.01.27-18.19.48:046][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
-[2024.01.27-18.19.48:050][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2024.01.27-18.19.48:050][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2024.01.27-18.19.48:050][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2024.01.27-18.19.48:050][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2024.01.27-18.19.48:050][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2024.01.27-18.19.48:050][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2024.01.27-18.19.48:050][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2024.01.27-18.19.48:050][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2024.01.27-18.19.48:057][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
-[2024.01.27-18.19.48:057][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
-[2024.01.27-18.19.48:057][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
-[2024.01.27-18.19.48:057][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2024.01.27-18.19.48:235][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2024.01.27-18.19.48:268][  0]LogAudioMixer: Display: 0: FrontLeft
-[2024.01.27-18.19.48:268][  0]LogAudioMixer: Display: 1: FrontRight
-[2024.01.27-18.19.48:360][  0]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
-[2024.01.27-18.19.48:371][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2024.01.27-18.19.48:372][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2024.01.27-18.19.48:374][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2024.01.27-18.19.48:377][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2024.01.27-18.19.48:379][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
-[2024.01.27-18.19.48:379][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
-[2024.01.27-18.19.48:379][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
-[2024.01.27-18.19.48:379][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
-[2024.01.27-18.19.48:379][  0]LogInit: FAudioDevice initialized.
-[2024.01.27-18.19.48:385][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2024.01.27-18.19.48:385][  0]LogInit: Texture streaming: Enabled
-[2024.01.27-18.19.48:525][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
-[2024.01.27-18.19.48:542][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2024.01.27-18.19.48:560][  0]LogInit: Display: Game Engine Initialized.
-[2024.01.27-18.19.48:563][  0]LogInit: Display: Starting Game.
-[2024.01.27-18.19.48:566][  0]LogNet: Browse: /Game/MakeMeLaugh/Levels/MainMenuLevel?Name=Player
-[2024.01.27-18.19.48:568][  0]LogLoad: LoadMap: /Game/MakeMeLaugh/Levels/MainMenuLevel?Name=Player
-[2024.01.27-18.19.48:568][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
-[2024.01.27-18.19.48:589][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2024.01.27-18.19.48:595][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2024.01.27-18.19.48:631][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
-[2024.01.27-18.19.48:641][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
-[2024.01.27-18.19.48:651][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenuLevel'.
-[2024.01.27-18.19.48:659][  0]LogAIModule: Creating AISystem for world MainMenuLevel
-[2024.01.27-18.19.48:717][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2024.01.27-18.19.48:722][  0]LogWorld: Bringing World /Game/MakeMeLaugh/Levels/MainMenuLevel.MainMenuLevel up for play (max tick rate 0) at 2024.01.27-12.19.48
-[2024.01.27-18.19.48:723][  0]LogWorld: Bringing up level for play took: 0.001669
-[2024.01.27-18.19.48:730][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2024.01.27-18.19.48:863][  0]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
-[2024.01.27-18.19.48:863][  0]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
-[2024.01.27-18.19.48:865][  0]LogLoad: Took 0.297014 seconds to LoadMap(/Game/MakeMeLaugh/Levels/MainMenuLevel)
-[2024.01.27-18.19.48:879][  0]LogSlate: Took 0.001739 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
-[2024.01.27-18.19.48:946][  0]LogSlate: Took 0.002394 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2024.01.27-18.19.48:973][  0]LogRenderer: Reallocating scene render targets to support 1536x864 Format 10 NumSamples 1 (Frame:1).
-[2024.01.27-18.19.48:973][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
-[2024.01.27-18.19.48:973][  0]LogPakFile: AllPaks IndexSizes: DirectoryHashSize=292288, PathHashSize=16, EntriesSize=53248, TotalSize=345552
-[2024.01.27-18.19.48:973][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
-[2024.01.27-18.19.48:973][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
-[2024.01.27-18.19.48:973][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
-[2024.01.27-18.19.48:973][  0]LogLoad: (Engine Initialization) Total time: 8.39 seconds
-[2024.01.27-18.19.50:587][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2024.01.27-18.19.50:600][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2024.01.27-18.19.50:884][  0]LogSlate: Slate font cache was flushed
-[2024.01.27-18.19.50:913][  1]LogSlate: Took 0.000520 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2024.01.27-18.19.50:915][  1]LogSlate: Took 0.000359 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
-[2024.01.27-18.20.19:229][789]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{602b7306-a8ff-4171-b67f-7d00e1f3a2c8}.
-[2024.01.27-18.20.19:258][790]LogAudioMixer: Resetting audio stream to device id 
-[2024.01.27-18.20.19:351][790]LogAudio: Display: Waited 70.853706 ms for audio thread.
-[2024.01.27-18.20.19:387][790]LogAudioMixer: Display: 0: FrontLeft
-[2024.01.27-18.20.19:387][790]LogAudioMixer: Display: 1: FrontRight
-[2024.01.27-18.20.19:387][790]LogAudio: Display: Waited 106.297401 ms for audio thread.
-[2024.01.27-18.20.19:422][790]LogAudio: Display: Waited 141.721802 ms for audio thread.
-[2024.01.27-18.20.19:458][790]LogAudio: Display: Waited 177.648102 ms for audio thread.
-[2024.01.27-18.20.19:494][790]LogAudio: Display: Waited 213.534302 ms for audio thread.
-[2024.01.27-18.20.19:530][790]LogAudio: Display: Waited 249.455002 ms for audio thread.
-[2024.01.27-18.20.19:566][790]LogAudio: Display: Waited 285.367188 ms for audio thread.
-[2024.01.27-18.20.19:602][790]LogAudio: Display: Waited 321.248718 ms for audio thread.
-[2024.01.27-18.20.19:638][790]LogAudio: Display: Waited 357.213501 ms for audio thread.
-[2024.01.27-18.20.19:673][790]LogAudio: Display: Waited 393.087219 ms for audio thread.
-[2024.01.27-18.20.19:709][790]LogAudio: Display: Waited 428.994598 ms for audio thread.
-[2024.01.27-18.20.19:745][790]LogAudio: Display: Waited 464.903412 ms for audio thread.
-[2024.01.27-18.20.19:781][790]LogAudio: Display: Waited 500.841370 ms for audio thread.
-[2024.01.27-18.20.19:817][790]LogAudio: Display: Waited 536.688232 ms for audio thread.
-[2024.01.27-18.20.19:853][790]LogAudio: Display: Waited 572.681763 ms for audio thread.
-[2024.01.27-18.20.19:889][790]LogAudio: Display: Waited 608.565186 ms for audio thread.
-[2024.01.27-18.20.19:925][790]LogAudio: Display: Waited 644.450317 ms for audio thread.
-[2024.01.27-18.20.19:961][790]LogAudio: Display: Waited 680.291565 ms for audio thread.
-[2024.01.27-18.20.19:997][790]LogAudio: Display: Waited 716.116577 ms for audio thread.
-[2024.01.27-18.20.19:997][790]LogAudio: Display: Waited 716.363708 ms for audio thread.
-[2024.01.27-18.20.49:752][592]LogNet: Browse: /Game/MakeMeLaugh/Levels/LobbyLevel?listen
-[2024.01.27-18.20.49:752][592]LogLoad: LoadMap: /Game/MakeMeLaugh/Levels/LobbyLevel?listen
-[2024.01.27-18.20.49:752][592]LogWorld: BeginTearingDown for /Game/MakeMeLaugh/Levels/MainMenuLevel
-[2024.01.27-18.20.49:761][592]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
-[2024.01.27-18.20.49:763][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2024.01.27-18.20.49:798][592]LogAudio: Display: Waited 35.152302 ms for audio thread.
-[2024.01.27-18.20.49:803][592]LogAudio: Display: Waited 39.981102 ms for audio thread.
-[2024.01.27-18.20.49:813][592]LogAudio: Display: Audio Device unregistered from world 'None'.
-[2024.01.27-18.20.49:822][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
-[2024.01.27-18.20.49:826][592]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
-[2024.01.27-18.20.49:830][592]LogAudio: Display: Audio Device (ID: 1) registered with world 'LobbyLevel'.
-[2024.01.27-18.20.49:833][592]LogAIModule: Creating AISystem for world LobbyLevel
-[2024.01.27-18.20.49:834][592]LogLoad: Game class is 'MMLLobbyGameMode_C'
-[2024.01.27-18.20.49:839][592]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
-[2024.01.27-18.20.49:839][592]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
-[2024.01.27-18.20.49:841][592]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
-[2024.01.27-18.20.49:841][592]LogNet: Created socket for bind address: 0.0.0.0 on port 7777
-[2024.01.27-18.20.49:841][592]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2024.01.27-18.20.49:843][592]LogNet: GameNetDriver IpNetDriver_2147482509 IpNetDriver listening on port 7777
-[2024.01.27-18.20.49:844][592]LogWorld: Bringing World /Game/MakeMeLaugh/Levels/LobbyLevel.LobbyLevel up for play (max tick rate 0) at 2024.01.27-12.20.49
-[2024.01.27-18.20.49:844][592]LogWorld: Bringing up level for play took: 0.000495
-[2024.01.27-18.20.49:845][592]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2024.01.27-18.20.49:846][592]LogLoad: Took 0.093292 seconds to LoadMap(/Game/MakeMeLaugh/Levels/LobbyLevel)
-[2024.01.27-18.21.10:144][181]LogWindowsDesktop: Alt-F4 pressed!
-[2024.01.27-18.21.10:144][181]LogSlate: Request Window 'MakeMeLaugh (64-bit Development PCD3D_SM5) ' being destroyed
-[2024.01.27-18.21.10:208][181]LogSlate: Window 'MakeMeLaugh (64-bit Development PCD3D_SM5) ' being destroyed
-[2024.01.27-18.21.10:211][181]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
-[2024.01.27-18.21.10:225][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2024.01.27-18.21.10:225][181]LogEngine: All Windows Closed
-[2024.01.27-18.21.10:226][181]LogWindows: FPlatformMisc::RequestExit(0)
-[2024.01.27-18.21.10:226][181]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0)
-[2024.01.27-18.21.10:226][181]LogCore: Engine exit requested (reason: Win RequestExit)
-[2024.01.27-18.21.10:228][182]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2024.01.27-18.21.10:228][182]LogInit: Display: PreExit Game.
-[2024.01.27-18.21.10:574][182]LogWorld: BeginTearingDown for /Game/MakeMeLaugh/Levels/LobbyLevel
-[2024.01.27-18.21.10:574][182]LogNet: World NetDriver shutdown IpNetDriver_2147482509 [GameNetDriver]
-[2024.01.27-18.21.10:574][182]LogNet: DestroyNamedNetDriver IpNetDriver_2147482509 [GameNetDriver]
-[2024.01.27-18.21.10:574][182]LogExit: GameNetDriver IpNetDriver_2147482509 shut down
-[2024.01.27-18.21.10:574][182]LogWorld: UWorld::CleanupWorld for LobbyLevel, bSessionEnded=true, bCleanupResources=true
-[2024.01.27-18.21.10:574][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2024.01.27-18.21.10:926][182]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
-[2024.01.27-18.21.10:926][182]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
-[2024.01.27-18.21.10:926][182]LogAudio: Display: Audio Device unregistered from world 'LobbyLevel'.
-[2024.01.27-18.21.10:927][182]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
-[2024.01.27-18.21.10:927][182]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
-[2024.01.27-18.21.10:957][182]LogAudio: Display: Audio Device Manager Shutdown
-[2024.01.27-18.21.11:119][182]LogExit: Preparing to exit.
-[2024.01.27-18.21.11:119][182]LogMoviePlayer: Shutting down movie player
-[2024.01.27-18.21.11:144][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2024.01.27-18.21.11:156][182]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2024.01.27-18.21.11:158][182]LogExit: Game engine shut down
-[2024.01.27-18.21.11:198][182]LogExit: Object subsystem successfully closed.
-[2024.01.27-18.21.11:217][182]LogModuleManager: Shutting down and abandoning module AutomationController (358)
-[2024.01.27-18.21.11:218][182]LogModuleManager: Shutting down and abandoning module AutomationWorker (356)
-[2024.01.27-18.21.11:218][182]LogModuleManager: Shutting down and abandoning module Voice (354)
-[2024.01.27-18.21.11:218][182]LogModuleManager: Shutting down and abandoning module AIModule (352)
-[2024.01.27-18.21.11:218][182]LogModuleManager: Shutting down and abandoning module GameplayDebugger (351)
-[2024.01.27-18.21.11:218][182]LogModuleManager: Shutting down and abandoning module NavigationSystem (349)
-[2024.01.27-18.21.11:218][182]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (346)
-[2024.01.27-18.21.11:218][182]LogModuleManager: Shutting down and abandoning module WebMMedia (344)
-[2024.01.27-18.21.11:218][182]LogModuleManager: Shutting down and abandoning module OpenXRInput (342)
-[2024.01.27-18.21.11:218][182]LogModuleManager: Shutting down and abandoning module OculusMR (340)
-[2024.01.27-18.21.11:218][182]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (338)
-[2024.01.27-18.21.11:218][182]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (336)
-[2024.01.27-18.21.11:218][182]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (334)
-[2024.01.27-18.21.11:218][182]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (332)
-[2024.01.27-18.21.11:218][182]LogModuleManager: Shutting down and abandoning module CharacterAI (330)
-[2024.01.27-18.21.11:218][182]LogModuleManager: Shutting down and abandoning module PlanarCut (328)
-[2024.01.27-18.21.11:218][182]LogModuleManager: Shutting down and abandoning module SessionServices (326)
-[2024.01.27-18.21.11:218][182]LogModuleManager: Shutting down and abandoning module LiveCoding (324)
-[2024.01.27-18.21.11:219][182]LogModuleManager: Shutting down and abandoning module LevelSequence (322)
-[2024.01.27-18.21.11:219][182]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (320)
-[2024.01.27-18.21.11:219][182]LogModuleManager: Shutting down and abandoning module MovieScene (318)
-[2024.01.27-18.21.11:219][182]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (316)
-[2024.01.27-18.21.11:219][182]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (314)
-[2024.01.27-18.21.11:219][182]LogModuleManager: Shutting down and abandoning module AudioMixerCore (313)
-[2024.01.27-18.21.11:219][182]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (310)
-[2024.01.27-18.21.11:219][182]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
-[2024.01.27-18.21.11:465][182]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
-[2024.01.27-18.21.11:468][182]LogModuleManager: Shutting down and abandoning module Synthesis (304)
-[2024.01.27-18.21.11:468][182]LogModuleManager: Shutting down and abandoning module TakeMovieScene (302)
-[2024.01.27-18.21.11:468][182]LogModuleManager: Shutting down and abandoning module LiveLinkMovieScene (300)
-[2024.01.27-18.21.11:468][182]LogModuleManager: Shutting down and abandoning module LiveLinkComponents (298)
-[2024.01.27-18.21.11:469][182]LogModuleManager: Shutting down and abandoning module LiveLink (296)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module OculusInput (294)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module GooglePAD (290)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module CableComponent (286)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module AudioCapture (284)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (283)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module AssetTags (280)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (278)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module AppleImageUtils (276)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module AndroidPermission (274)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (272)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module MediaCompositing (270)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module ImgMedia (268)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (266)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (264)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (262)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (260)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (258)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (256)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module MotoSynth (254)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module ChaosNiagara (252)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (250)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (248)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module EditableMesh (246)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module MeshConversion (244)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module DynamicMesh (242)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (240)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module GeometricObjects (238)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module BackChannel (236)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module AutomationUtils (234)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (232)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module GeometryCache (230)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module UObjectPlugin (228)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (226)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module TemplateSequence (224)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (222)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (220)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module SoundFields (218)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (216)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (212)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module ActorSequence (210)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module UdpMessaging (208)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module TcpMessaging (206)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (204)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (202)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (200)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (198)
-[2024.01.27-18.21.11:785][182]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (196)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (194)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (192)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (190)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (188)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module MagicLeapController (186)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (184)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module MagicLeapAR (182)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (180)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (178)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module Niagara (176)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module SignalProcessing (175)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module NiagaraCore (172)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module FacialAnimation (170)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module SignificanceManager (168)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module AnimationSharing (166)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module GameplayCameras (164)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (162)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module Paper2D (160)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (158)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (156)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (154)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module PacketHandler (152)
-[2024.01.27-18.21.11:786][182]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (150)
-[2024.01.27-18.21.11:790][182]LogModuleManager: Shutting down and abandoning module MediaAssets (148)
-[2024.01.27-18.21.11:790][182]LogModuleManager: Shutting down and abandoning module Overlay (146)
-[2024.01.27-18.21.11:790][182]LogModuleManager: Shutting down and abandoning module FunctionalTesting (144)
-[2024.01.27-18.21.11:790][182]LogModuleManager: Shutting down and abandoning module MessageLog (142)
-[2024.01.27-18.21.11:790][182]LogModuleManager: Shutting down and abandoning module UMG (140)
-[2024.01.27-18.21.11:790][182]LogModuleManager: Shutting down and abandoning module SlateReflector (138)
-[2024.01.27-18.21.11:795][182]LogModuleManager: Shutting down and abandoning module Slate (136)
-[2024.01.27-18.21.11:795][182]LogModuleManager: Shutting down and abandoning module SlateCore (134)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module MRMesh (132)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module Messaging (130)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (128)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module XAudio2 (126)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module Networking (124)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module Core (122)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (120)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module ImageWrapper (116)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module D3D11RHI (114)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module InputCore (112)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module Settings (110)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module PhysXCooking (108)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module Chaos (106)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (104)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (103)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module AVEncoder (102)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (98)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module SteamVRInput (96)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module SteamVR (94)
-[2024.01.27-18.21.11:796][182]LogHMD: Freeing OpenVRDLLHandle.
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module OpenXRHandTracking (92)
-[2024.01.27-18.21.11:796][182]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module OpenXRAR (90)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module AugmentedReality (89)
-[2024.01.27-18.21.11:796][182]LogModuleManager: Shutting down and abandoning module OpenXRHMD (86)
-[2024.01.27-18.21.11:798][182]LogModuleManager: Shutting down and abandoning module OpenXREyeTracker (84)
-[2024.01.27-18.21.11:798][182]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
-[2024.01.27-18.21.11:798][182]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
-[2024.01.27-18.21.11:798][182]LogModuleManager: Shutting down and abandoning module ChunkDownloader (78)
-[2024.01.27-18.21.11:798][182]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2024.01.27-18.21.11:798][182]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
-[2024.01.27-18.21.11:801][182]LogModuleManager: Shutting down and abandoning module HTTP (67)
-[2024.01.27-18.21.11:801][182]LogHttp: Display: cleaning up 0 outstanding Http requests.
-[2024.01.27-18.21.11:822][182]LogModuleManager: Shutting down and abandoning module SSL (66)
-[2024.01.27-18.21.11:822][182]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
-[2024.01.27-18.21.11:823][182]LogModuleManager: Shutting down and abandoning module Media (61)
-[2024.01.27-18.21.11:823][182]LogModuleManager: Shutting down and abandoning module MediaInfo (60)
-[2024.01.27-18.21.11:823][182]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (56)
-[2024.01.27-18.21.11:823][182]LogModuleManager: Shutting down and abandoning module MLSDK (54)
-[2024.01.27-18.21.11:823][182]LogModuleManager: Shutting down and abandoning module MagicLeap (52)
-[2024.01.27-18.21.11:823][182]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (50)
-[2024.01.27-18.21.11:823][182]LogModuleManager: Shutting down and abandoning module NiagaraShader (48)
-[2024.01.27-18.21.11:823][182]LogModuleManager: Shutting down and abandoning module ChaosCloth (46)
-[2024.01.27-18.21.11:823][182]LogModuleManager: Shutting down and abandoning module VariantManagerContent (44)
-[2024.01.27-18.21.11:823][182]LogModuleManager: Shutting down and abandoning module DatasmithContent (42)
-[2024.01.27-18.21.11:823][182]LogModuleManager: Shutting down and abandoning module PixWinPlugin (40)
-[2024.01.27-18.21.11:823][182]LogModuleManager: Shutting down and abandoning module AISupportModule (38)
-[2024.01.27-18.21.11:823][182]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (36)
-[2024.01.27-18.21.11:823][182]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (34)
-[2024.01.27-18.21.11:824][182]LogModuleManager: Shutting down and abandoning module PlatformCrypto (32)
-[2024.01.27-18.21.11:824][182]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (30)
-[2024.01.27-18.21.11:824][182]LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (28)
-[2024.01.27-18.21.11:824][182]LogModuleManager: Shutting down and abandoning module RenderCore (26)
-[2024.01.27-18.21.11:824][182]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2024.01.27-18.21.11:824][182]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2024.01.27-18.21.11:824][182]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2024.01.27-18.21.11:824][182]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2024.01.27-18.21.11:824][182]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2024.01.27-18.21.11:824][182]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2024.01.27-18.21.11:824][182]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2024.01.27-18.21.11:824][182]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2024.01.27-18.21.11:824][182]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2024.01.27-18.21.11:824][182]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2024.01.27-18.21.11:824][182]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2024.01.27-18.21.11:825][182]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2024.01.27-18.21.11:825][182]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
-[2024.01.27-18.21.11:834][182]LogD3D11RHI: Shutdown
-[2024.01.27-18.21.11:835][182]LogD3D11RHI: CleanupD3DDevice
-[2024.01.27-18.21.11:838][182]LogD3D11RHI: Intel Extensions Framework unloaded
-[2024.01.27-18.21.11:844][182]LogD3D11RHI: [IntelMetricsDiscovery] Stopped
-[2024.01.27-18.21.11:844][182]LogExit: Exiting.
-[2024.01.27-18.21.11:854][182]Log file closed, 01/27/24 12:21:11
+[2024.01.28-17.34.36:884][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2024.01.28-17.34.36:884][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2024.01.28-17.34.36:884][  0]LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Engine.ini]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Engine.ini]
+[2024.01.28-17.34.36:886][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Engine.ini]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Engine.ini]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2024.01.28-17.34.36:886][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Engine.ini]
+[2024.01.28-17.34.36:940][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2024.01.28-17.34.36:940][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2024.01.28-17.34.36:941][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2024.01.28-17.34.36:942][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.01.28-17.34.36:942][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2024.01.28-17.34.36:942][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2024.01.28-17.34.36:942][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.01.28-17.34.36:942][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2024.01.28-17.34.36:942][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2024.01.28-17.34.36:942][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.01.28-17.34.36:944][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2024.01.28-17.34.36:944][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2024.01.28-17.34.36:944][  0]LogHAL: Display: Platform has ~ 16 GB [17032310784 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.01.28-17.34.36:945][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2024.01.28-17.34.36:945][  0]LogInit: Going up to parent DeviceProfile []
+[2024.01.28-17.34.36:945][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.01.28-17.34.36:945][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2024.01.28-17.34.36:946][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../MakeMeLaugh/Saved/Config/WindowsNoEditor/Engine.ini]
+[2024.01.28-17.34.36:946][  0]LogInit: Computer: R2D2RDZ
+[2024.01.28-17.34.36:946][  0]LogInit: User: R2D2R
+[2024.01.28-17.34.36:946][  0]LogInit: CPU Page size=4096, Cores=4
+[2024.01.28-17.34.36:946][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.01.28-17.34.36:946][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2024.01.28-17.34.36:946][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2024.01.28-17.34.36:946][  0]LogMemory: Process Physical Memory: 93.23 MB used, 93.23 MB peak
+[2024.01.28-17.34.36:946][  0]LogMemory: Process Virtual Memory: 81.30 MB used, 81.30 MB peak
+[2024.01.28-17.34.36:946][  0]LogMemory: Physical Memory: 10808.68 MB used,  5434.60 MB free, 16243.28 MB total
+[2024.01.28-17.34.36:946][  0]LogMemory: Virtual Memory: 134204848.00 MB used,  12878.90 MB free, 134217728.00 MB total
+[2024.01.28-17.34.36:954][  0]LogWindows: WindowsPlatformFeatures enabled
+[2024.01.28-17.34.37:255][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2024.01.28-17.34.37:256][  0]LogInit: Using OS detected language (en-US).
+[2024.01.28-17.34.37:256][  0]LogInit: Using OS detected locale (en-US).
+[2024.01.28-17.34.37:256][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2024.01.28-17.34.37:303][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.01.28-17.34.37:380][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2024.01.28-17.34.37:380][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.01.28-17.34.37:471][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2024.01.28-17.34.37:490][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.01.28-17.34.37:490][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2024.01.28-17.34.37:490][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2024.01.28-17.34.37:490][  0]LogD3D11RHI: D3D11 adapters:
+[2024.01.28-17.34.37:579][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2024.01.28-17.34.37:579][  0]LogD3D11RHI:       128/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2024.01.28-17.34.37:584][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.01.28-17.34.37:584][  0]LogD3D11RHI:       0/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.01.28-17.34.37:584][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2024.01.28-17.34.37:584][  0]LogD3D11RHI:     Description : Intel(R) UHD Graphics 620
+[2024.01.28-17.34.37:584][  0]LogD3D11RHI:     VendorId    : 8086
+[2024.01.28-17.34.37:584][  0]LogD3D11RHI:     DeviceId    : 5917
+[2024.01.28-17.34.37:584][  0]LogD3D11RHI:     SubSysId    : 8161028
+[2024.01.28-17.34.37:584][  0]LogD3D11RHI:     Revision    : 0007
+[2024.01.28-17.34.37:584][  0]LogD3D11RHI:     DedicatedVideoMemory : 134217728 bytes
+[2024.01.28-17.34.37:584][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.01.28-17.34.37:584][  0]LogD3D11RHI:     SharedSystemMemory : 8516155392 bytes
+[2024.01.28-17.34.37:584][  0]LogD3D11RHI:     AdapterLuid : 0 99821
+[2024.01.28-17.34.37:594][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.01.28-17.34.37:594][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
+[2024.01.28-17.34.37:594][  0]LogWindows: EnumDisplayDevices:
+[2024.01.28-17.34.37:595][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2024.01.28-17.34.37:595][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:1)
+[2024.01.28-17.34.37:595][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2024.01.28-17.34.37:595][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2024.01.28-17.34.37:595][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
+[2024.01.28-17.34.37:595][  0]LogD3D11RHI:   Driver Version: 27.20.100.9171 (internal:27.20.100.9171, unified:27.20.100.9171)
+[2024.01.28-17.34.37:595][  0]LogD3D11RHI:      Driver Date: 1-8-2021
+[2024.01.28-17.34.37:596][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2024.01.28-17.34.37:654][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2024.01.28-17.34.37:654][  0]LogD3D11RHI:     Description : Intel(R) UHD Graphics 620
+[2024.01.28-17.34.37:654][  0]LogD3D11RHI:     VendorId    : 8086
+[2024.01.28-17.34.37:654][  0]LogD3D11RHI:     DeviceId    : 5917
+[2024.01.28-17.34.37:654][  0]LogD3D11RHI:     SubSysId    : 8161028
+[2024.01.28-17.34.37:654][  0]LogD3D11RHI:     Revision    : 0007
+[2024.01.28-17.34.37:654][  0]LogD3D11RHI:     DedicatedVideoMemory : 134217728 bytes
+[2024.01.28-17.34.37:654][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.01.28-17.34.37:654][  0]LogD3D11RHI:     SharedSystemMemory : 8516155392 bytes
+[2024.01.28-17.34.37:654][  0]LogD3D11RHI:     AdapterLuid : 0 99821
+[2024.01.28-17.34.37:719][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2024.01.28-17.34.37:729][  0]LogD3D11RHI: Intel Extensions support version Full=16777216, Major=1, Minor=0, Revision=0
+[2024.01.28-17.34.37:729][  0]LogD3D11RHI: Intel Extensions support version Full=16777217, Major=1, Minor=0, Revision=1
+[2024.01.28-17.34.37:729][  0]LogD3D11RHI: Intel Extensions Framework enabled
+[2024.01.28-17.34.37:730][  0]LogD3D11RHI: [IntelMetricsDiscovery] Started
+[2024.01.28-17.34.37:731][  0]LogD3D11RHI: Async texture creation enabled
+[2024.01.28-17.34.37:731][  0]LogD3D11RHI: Array index from any shader is supported
+[2024.01.28-17.34.37:791][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2024.01.28-17.34.37:794][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2024.01.28-17.34.37:802][  0]LogShaderLibrary: Display: Using ../../../MakeMeLaugh/Content/ShaderArchive-Global-PCD3D_SM5.ushaderbytecode for material shader code. Total 1951 unique shaders.
+[2024.01.28-17.34.37:803][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
+[2024.01.28-17.34.37:803][  0]LogShaderLibrary: Display: Logical shader library 'Global' has been created, components 1
+[2024.01.28-17.34.37:805][  0]LogTemp: Warning: Clearing the OS Cache
+[2024.01.28-17.34.37:805][  0]LogODSC: ODSC Thread active.
+[2024.01.28-17.34.37:842][  0]LogPakFile: New pak file ../../../MakeMeLaugh/Content/Paks/MakeMeLaugh-WindowsNoEditor.pak added to pak precacher.
+[2024.01.28-17.34.37:917][  0]LogSlate: Using FreeType 2.10.0
+[2024.01.28-17.34.37:922][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.01.28-17.34.38:056][  0]LogShaderLibrary: Display: Using ../../../MakeMeLaugh/Content/ShaderArchive-MakeMeLaugh-PCD3D_SM5.ushaderbytecode for material shader code. Total 2680 unique shaders.
+[2024.01.28-17.34.38:056][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library MakeMeLaugh
+[2024.01.28-17.34.38:056][  0]LogShaderLibrary: Display: Logical shader library 'MakeMeLaugh' has been created, components 1
+[2024.01.28-17.34.38:057][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
+[2024.01.28-17.34.38:058][  0]LogShaderLibrary: Display: Using ../../../MakeMeLaugh/Content/ShaderArchive-MakeMeLaugh-PCD3D_SM5.ushaderbytecode for material shader code. Total 2680 unique shaders.
+[2024.01.28-17.34.38:058][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library MakeMeLaugh
+[2024.01.28-17.34.38:058][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
+[2024.01.28-17.34.38:058][  0]LogRHI: Display: Failed to open default shader pipeline cache for MakeMeLaugh using shader platform 0.
+[2024.01.28-17.34.38:058][  0]LogRHI: Display: Failed to open default shader pipeline cache for MakeMeLaugh using shader platform 0.
+[2024.01.28-17.34.38:058][  0]LogInit: Using OS detected language (en-US).
+[2024.01.28-17.34.38:058][  0]LogInit: Using OS detected locale (en-US).
+[2024.01.28-17.34.38:059][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2024.01.28-17.34.38:059][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2024.01.28-17.34.38:059][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2024.01.28-17.34.38:059][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2024.01.28-17.34.38:070][  0]LogTextLocalizationManager: Compacting localization data took   2.19ms
+[2024.01.28-17.34.38:070][  0]LogAssetRegistry: FAssetRegistry took 0.0087 seconds to start up
+[2024.01.28-17.34.38:394][  0]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2024.01.28-17.34.38:404][  0]LogPackageLocalizationCache: Processed 26 localized package path(s) for 1 prioritized culture(s) in 0.001719 seconds
+[2024.01.28-17.34.38:422][  0]LogSerialization: Display: AllowBulkDataInIoStore: 'true'
+[2024.01.28-17.34.38:424][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2024.01.28-17.34.38:427][  0]LogInit: Active device profile: [0000016C17B40D00][0000016C0997DB70 49] WindowsNoEditor
+[2024.01.28-17.34.38:427][  0]LogInit: Profiles: [0000016C17B41000][0000016C1727B6E0 49] Windows, [0000016C17B40D00][0000016C0997DB70 49] WindowsNoEditor, 
+[2024.01.28-17.34.38:537][  0]LogNetVersion: MakeMeLaugh 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 4226655505)
+[2024.01.28-17.34.38:739][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.01.28-17.34.38:740][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.01.28-17.34.38:742][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2024.01.28-17.34.38:901][  0]LogMoviePlayer: Initializing movie player
+[2024.01.28-17.34.38:911][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 480C856F49770B2C6D31EBA05B979845 | Instance: 004FE3034BC663A31EDA7FBCC3B1DCE1 (R2D2RDZ-13216).
+[2024.01.28-17.34.38:924][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.01.28-17.34.38:925][  0]LogOcInput: OculusInput pre-init called
+[2024.01.28-17.34.38:935][  0]LogUObjectArray: 15771 objects as part of root set at end of initial load.
+[2024.01.28-17.34.38:935][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2024.01.28-17.34.38:935][  0]LogUObjectAllocator: 3198280 out of 0 bytes used by permanent object pool.
+[2024.01.28-17.34.38:935][  0]LogUObjectArray: CloseDisregardForGC: 15771/15771 objects in disregard for GC pool
+[2024.01.28-17.34.38:940][  0]LogEngine: Initializing Engine...
+[2024.01.28-17.34.39:028][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2024.01.28-17.34.39:029][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.01.28-17.34.39:036][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.003 s
+[2024.01.28-17.34.39:143][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.01.28-17.34.39:144][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2024.01.28-17.34.39:146][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2024.01.28-17.34.39:149][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2024.01.28-17.34.39:149][  0]LogAudio: Display: Audio Device Manager Initialized
+[2024.01.28-17.34.39:150][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2024.01.28-17.34.39:153][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-17.34.39:153][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-17.34.39:153][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-17.34.39:153][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-17.34.39:153][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.28-17.34.39:153][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-17.34.39:153][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.28-17.34.39:153][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-17.34.39:157][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-17.34.39:157][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-17.34.39:157][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-17.34.39:157][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.28-17.34.39:296][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2024.01.28-17.34.39:340][  0]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.28-17.34.39:340][  0]LogAudioMixer: Display: 1: FrontRight
+[2024.01.28-17.34.40:291][  0]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2024.01.28-17.34.40:295][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-17.34.40:297][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-17.34.40:298][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-17.34.40:302][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.28-17.34.40:303][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.28-17.34.40:303][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.28-17.34.40:304][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.28-17.34.40:304][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.28-17.34.40:304][  0]LogInit: FAudioDevice initialized.
+[2024.01.28-17.34.40:309][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.01.28-17.34.40:309][  0]LogInit: Texture streaming: Enabled
+[2024.01.28-17.34.40:400][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2024.01.28-17.34.40:411][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-17.34.40:420][  0]LogInit: Display: Game Engine Initialized.
+[2024.01.28-17.34.40:428][  0]LogInit: Display: Starting Game.
+[2024.01.28-17.34.40:428][  0]LogNet: Browse: /Game/MakeMeLaugh/Levels/MainMenuLevel?Name=Player
+[2024.01.28-17.34.40:431][  0]LogLoad: LoadMap: /Game/MakeMeLaugh/Levels/MainMenuLevel?Name=Player
+[2024.01.28-17.34.40:432][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2024.01.28-17.34.40:442][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-17.34.40:446][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-17.34.40:477][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.28-17.34.40:492][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.01.28-17.34.40:507][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenuLevel'.
+[2024.01.28-17.34.40:517][  0]LogAIModule: Creating AISystem for world MainMenuLevel
+[2024.01.28-17.34.40:555][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2024.01.28-17.34.40:564][  0]LogWorld: Bringing World /Game/MakeMeLaugh/Levels/MainMenuLevel.MainMenuLevel up for play (max tick rate 0) at 2024.01.28-11.34.40
+[2024.01.28-17.34.40:565][  0]LogWorld: Bringing up level for play took: 0.002053
+[2024.01.28-17.34.40:573][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.01.28-17.34.40:656][  0]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.28-17.34.40:656][  0]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.01.28-17.34.40:658][  0]LogLoad: Took 0.226383 seconds to LoadMap(/Game/MakeMeLaugh/Levels/MainMenuLevel)
+[2024.01.28-17.34.40:675][  0]LogSlate: Took 0.000739 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2024.01.28-17.34.40:828][  0]LogSlate: Took 0.001074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.01.28-17.34.40:970][  0]LogRenderer: Reallocating scene render targets to support 1536x864 Format 10 NumSamples 1 (Frame:1).
+[2024.01.28-17.34.40:970][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2024.01.28-17.34.40:970][  0]LogPakFile: AllPaks IndexSizes: DirectoryHashSize=292288, PathHashSize=16, EntriesSize=53248, TotalSize=345552
+[2024.01.28-17.34.40:970][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2024.01.28-17.34.40:970][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2024.01.28-17.34.40:970][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2024.01.28-17.34.40:970][  0]LogLoad: (Engine Initialization) Total time: 5.34 seconds
+[2024.01.28-17.34.41:015][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.01.28-17.34.41:027][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-17.34.41:343][  0]LogSlate: Slate font cache was flushed
+[2024.01.28-17.34.41:361][  1]LogSlate: Took 0.001411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.01.28-17.34.41:367][  1]LogSlate: Took 0.000587 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2024.01.28-17.38.42:598][182]LogSlate: Request Window 'MakeMeLaugh (64-bit Development PCD3D_SM5) ' being destroyed
+[2024.01.28-17.38.42:695][182]LogSlate: Window 'MakeMeLaugh (64-bit Development PCD3D_SM5) ' being destroyed
+[2024.01.28-17.38.42:697][182]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.01.28-17.38.42:720][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-17.38.42:720][183]LogEngine: All Windows Closed
+[2024.01.28-17.38.42:720][183]LogWindows: FPlatformMisc::RequestExit(0)
+[2024.01.28-17.38.42:720][183]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0)
+[2024.01.28-17.38.42:721][183]LogCore: Engine exit requested (reason: Win RequestExit)
+[2024.01.28-17.38.42:725][184]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.01.28-17.38.42:727][184]LogInit: Display: PreExit Game.
+[2024.01.28-17.38.42:788][184]LogWorld: BeginTearingDown for /Game/MakeMeLaugh/Levels/MainMenuLevel
+[2024.01.28-17.38.42:793][184]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-17.38.42:802][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-17.38.43:192][184]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.01.28-17.38.43:193][184]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.01.28-17.38.43:193][184]LogAudio: Display: Audio Device unregistered from world 'MainMenuLevel'.
+[2024.01.28-17.38.43:197][184]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.28-17.38.43:199][184]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.28-17.38.43:210][184]LogAudio: Display: Audio Device Manager Shutdown
+[2024.01.28-17.38.43:215][184]LogExit: Preparing to exit.
+[2024.01.28-17.38.43:217][184]LogMoviePlayer: Shutting down movie player
+[2024.01.28-17.38.43:255][184]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-17.38.43:265][184]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2024.01.28-17.38.43:272][184]LogExit: Game engine shut down
+[2024.01.28-17.38.43:366][184]LogExit: Object subsystem successfully closed.
+[2024.01.28-17.38.43:392][184]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2024.01.28-17.38.43:393][184]LogModuleManager: Shutting down and abandoning module AutomationWorker (356)
+[2024.01.28-17.38.43:394][184]LogModuleManager: Shutting down and abandoning module Voice (354)
+[2024.01.28-17.38.43:394][184]LogModuleManager: Shutting down and abandoning module AIModule (352)
+[2024.01.28-17.38.43:394][184]LogModuleManager: Shutting down and abandoning module GameplayDebugger (351)
+[2024.01.28-17.38.43:394][184]LogModuleManager: Shutting down and abandoning module NavigationSystem (349)
+[2024.01.28-17.38.43:394][184]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (346)
+[2024.01.28-17.38.43:394][184]LogModuleManager: Shutting down and abandoning module WebMMedia (344)
+[2024.01.28-17.38.43:394][184]LogModuleManager: Shutting down and abandoning module OpenXRInput (342)
+[2024.01.28-17.38.43:395][184]LogModuleManager: Shutting down and abandoning module OculusMR (340)
+[2024.01.28-17.38.43:395][184]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (338)
+[2024.01.28-17.38.43:395][184]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (336)
+[2024.01.28-17.38.43:395][184]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (334)
+[2024.01.28-17.38.43:395][184]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (332)
+[2024.01.28-17.38.43:395][184]LogModuleManager: Shutting down and abandoning module CharacterAI (330)
+[2024.01.28-17.38.43:395][184]LogModuleManager: Shutting down and abandoning module PlanarCut (328)
+[2024.01.28-17.38.43:395][184]LogModuleManager: Shutting down and abandoning module SessionServices (326)
+[2024.01.28-17.38.43:395][184]LogModuleManager: Shutting down and abandoning module LiveCoding (324)
+[2024.01.28-17.38.43:396][184]LogModuleManager: Shutting down and abandoning module LevelSequence (322)
+[2024.01.28-17.38.43:396][184]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (320)
+[2024.01.28-17.38.43:396][184]LogModuleManager: Shutting down and abandoning module MovieScene (318)
+[2024.01.28-17.38.43:397][184]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (316)
+[2024.01.28-17.38.43:397][184]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (314)
+[2024.01.28-17.38.43:397][184]LogModuleManager: Shutting down and abandoning module AudioMixerCore (313)
+[2024.01.28-17.38.43:397][184]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (310)
+[2024.01.28-17.38.43:397][184]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2024.01.28-17.38.43:644][184]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2024.01.28-17.38.43:645][184]LogModuleManager: Shutting down and abandoning module Synthesis (304)
+[2024.01.28-17.38.43:646][184]LogModuleManager: Shutting down and abandoning module TakeMovieScene (302)
+[2024.01.28-17.38.43:646][184]LogModuleManager: Shutting down and abandoning module LiveLinkMovieScene (300)
+[2024.01.28-17.38.43:646][184]LogModuleManager: Shutting down and abandoning module LiveLinkComponents (298)
+[2024.01.28-17.38.43:646][184]LogModuleManager: Shutting down and abandoning module LiveLink (296)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module GooglePAD (290)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module AudioCapture (284)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (283)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module AssetTags (280)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (278)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module AppleImageUtils (276)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module AndroidPermission (274)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (272)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module MediaCompositing (270)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module ImgMedia (268)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (266)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (264)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (262)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (260)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (258)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (256)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module MotoSynth (254)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module ChaosNiagara (252)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (250)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (248)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module EditableMesh (246)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module MeshConversion (244)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module DynamicMesh (242)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (240)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module GeometricObjects (238)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module BackChannel (236)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module AutomationUtils (234)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (232)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module GeometryCache (230)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module UObjectPlugin (228)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (226)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module TemplateSequence (224)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (222)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (220)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module SoundFields (218)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (216)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (212)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module ActorSequence (210)
+[2024.01.28-17.38.44:068][184]LogModuleManager: Shutting down and abandoning module UdpMessaging (208)
+[2024.01.28-17.38.44:070][184]LogModuleManager: Shutting down and abandoning module TcpMessaging (206)
+[2024.01.28-17.38.44:071][184]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (204)
+[2024.01.28-17.38.44:071][184]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (202)
+[2024.01.28-17.38.44:071][184]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (200)
+[2024.01.28-17.38.44:071][184]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (198)
+[2024.01.28-17.38.44:071][184]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (196)
+[2024.01.28-17.38.44:071][184]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (194)
+[2024.01.28-17.38.44:071][184]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (192)
+[2024.01.28-17.38.44:071][184]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (190)
+[2024.01.28-17.38.44:071][184]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (188)
+[2024.01.28-17.38.44:071][184]LogModuleManager: Shutting down and abandoning module MagicLeapController (186)
+[2024.01.28-17.38.44:071][184]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (184)
+[2024.01.28-17.38.44:071][184]LogModuleManager: Shutting down and abandoning module MagicLeapAR (182)
+[2024.01.28-17.38.44:071][184]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (180)
+[2024.01.28-17.38.44:071][184]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (178)
+[2024.01.28-17.38.44:071][184]LogModuleManager: Shutting down and abandoning module Niagara (176)
+[2024.01.28-17.38.44:072][184]LogModuleManager: Shutting down and abandoning module SignalProcessing (175)
+[2024.01.28-17.38.44:072][184]LogModuleManager: Shutting down and abandoning module NiagaraCore (172)
+[2024.01.28-17.38.44:072][184]LogModuleManager: Shutting down and abandoning module FacialAnimation (170)
+[2024.01.28-17.38.44:072][184]LogModuleManager: Shutting down and abandoning module SignificanceManager (168)
+[2024.01.28-17.38.44:072][184]LogModuleManager: Shutting down and abandoning module AnimationSharing (166)
+[2024.01.28-17.38.44:072][184]LogModuleManager: Shutting down and abandoning module GameplayCameras (164)
+[2024.01.28-17.38.44:072][184]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (162)
+[2024.01.28-17.38.44:072][184]LogModuleManager: Shutting down and abandoning module Paper2D (160)
+[2024.01.28-17.38.44:072][184]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (158)
+[2024.01.28-17.38.44:074][184]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (156)
+[2024.01.28-17.38.44:075][184]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (154)
+[2024.01.28-17.38.44:075][184]LogModuleManager: Shutting down and abandoning module PacketHandler (152)
+[2024.01.28-17.38.44:075][184]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (150)
+[2024.01.28-17.38.44:076][184]LogModuleManager: Shutting down and abandoning module MediaAssets (148)
+[2024.01.28-17.38.44:076][184]LogModuleManager: Shutting down and abandoning module Overlay (146)
+[2024.01.28-17.38.44:076][184]LogModuleManager: Shutting down and abandoning module FunctionalTesting (144)
+[2024.01.28-17.38.44:076][184]LogModuleManager: Shutting down and abandoning module MessageLog (142)
+[2024.01.28-17.38.44:079][184]LogModuleManager: Shutting down and abandoning module UMG (140)
+[2024.01.28-17.38.44:079][184]LogModuleManager: Shutting down and abandoning module SlateReflector (138)
+[2024.01.28-17.38.44:082][184]LogModuleManager: Shutting down and abandoning module Slate (136)
+[2024.01.28-17.38.44:082][184]LogModuleManager: Shutting down and abandoning module SlateCore (134)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module MRMesh (132)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module Messaging (130)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (128)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module XAudio2 (126)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module Networking (124)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module Core (122)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (120)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module ImageWrapper (116)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module D3D11RHI (114)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module PhysXCooking (108)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module Chaos (106)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (104)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (103)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module AVEncoder (102)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (98)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module SteamVRInput (96)
+[2024.01.28-17.38.44:084][184]LogModuleManager: Shutting down and abandoning module SteamVR (94)
+[2024.01.28-17.38.44:085][184]LogHMD: Freeing OpenVRDLLHandle.
+[2024.01.28-17.38.44:085][184]LogModuleManager: Shutting down and abandoning module OpenXRHandTracking (92)
+[2024.01.28-17.38.44:085][184]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.01.28-17.38.44:085][184]LogModuleManager: Shutting down and abandoning module OpenXRAR (90)
+[2024.01.28-17.38.44:085][184]LogModuleManager: Shutting down and abandoning module AugmentedReality (89)
+[2024.01.28-17.38.44:085][184]LogModuleManager: Shutting down and abandoning module OpenXRHMD (86)
+[2024.01.28-17.38.44:086][184]LogModuleManager: Shutting down and abandoning module OpenXREyeTracker (84)
+[2024.01.28-17.38.44:086][184]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2024.01.28-17.38.44:086][184]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2024.01.28-17.38.44:086][184]LogModuleManager: Shutting down and abandoning module ChunkDownloader (78)
+[2024.01.28-17.38.44:086][184]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2024.01.28-17.38.44:086][184]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2024.01.28-17.38.44:088][184]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2024.01.28-17.38.44:088][184]LogHttp: Display: cleaning up 0 outstanding Http requests.
+[2024.01.28-17.38.44:096][184]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2024.01.28-17.38.44:097][184]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2024.01.28-17.38.44:098][184]LogModuleManager: Shutting down and abandoning module Media (61)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module MediaInfo (60)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (56)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module MLSDK (54)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module MagicLeap (52)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (50)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module NiagaraShader (48)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module ChaosCloth (46)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module VariantManagerContent (44)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module DatasmithContent (42)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module PixWinPlugin (40)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module AISupportModule (38)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (36)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (34)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module PlatformCrypto (32)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (30)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (28)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2024.01.28-17.38.44:099][184]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2024.01.28-17.38.44:101][184]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2024.01.28-17.38.44:101][184]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2024.01.28-17.38.44:102][184]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2024.01.28-17.38.44:102][184]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2024.01.28-17.38.44:102][184]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2024.01.28-17.38.44:102][184]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2024.01.28-17.38.44:102][184]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2024.01.28-17.38.44:102][184]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2024.01.28-17.38.44:102][184]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2024.01.28-17.38.44:103][184]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2024.01.28-17.38.44:103][184]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2024.01.28-17.38.44:111][184]LogD3D11RHI: Shutdown
+[2024.01.28-17.38.44:111][184]LogD3D11RHI: CleanupD3DDevice
+[2024.01.28-17.38.44:115][184]LogD3D11RHI: Intel Extensions Framework unloaded
+[2024.01.28-17.38.44:118][184]LogD3D11RHI: [IntelMetricsDiscovery] Stopped
+[2024.01.28-17.38.44:121][184]LogExit: Exiting.
+[2024.01.28-17.38.44:127][184]Log file closed, 01/28/24 11:38:44
