@@ -2407,3 +2407,504 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2024.01.28-09.20.14:266][627]LogSavePackage: Moving '../../../../Unreal Projects/Git GGJ/GGJ-2024/MakeMeLaugh/Saved/MainMenuLevel2AA8D75042AC1B90B8F9AE9B8B75B990.tmp' to '../../../../Unreal Projects/Git GGJ/GGJ-2024/MakeMeLaugh/Content/MakeMeLaugh/Levels/MainMenuLevel.umap'
 [2024.01.28-09.20.14:299][627]AssetCheck: New page: Asset Save: MainMenuLevel
 [2024.01.28-09.20.14:299][627]LogContentValidation: Display: Validating World /Game/MakeMeLaugh/Levels/MainMenuLevel.MainMenuLevel
+[2024.01.28-09.20.58:034][993]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{11b12b08-9398-44ce-a49e-96da8f3394c5}.
+[2024.01.28-09.20.58:034][993]LogAudioMixer: Resetting audio stream to device id 
+[2024.01.28-09.20.58:534][993]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.28-09.20.58:534][993]LogAudioMixer: Display: 1: FrontRight
+[2024.01.28-09.20.59:611][994]LogAudioMixer: Resetting audio stream to device id 
+[2024.01.28-09.20.59:659][994]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.28-09.20.59:659][994]LogAudioMixer: Display: 1: FrontRight
+[2024.01.28-15.31.55:536][  8]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.01.28-15.31.55:717][  8]LogAudioMixer: Resetting audio stream to device id 
+[2024.01.28-15.31.55:750][  8]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.28-15.31.55:750][  8]LogAudioMixer: Display: 1: FrontRight
+[2024.01.28-15.31.55:913][  9]LogHttp: Warning: 0000023938B21600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8BDD0CF6-4715-BC67-9CFC-7188DF16EDAE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d274dbcc4ca26f6f30b7179ba7275ba6%7Cf9a660c55ff1473ca73e5b3f7e22dae3%7C936f4b4e-8cf5-447f-850e-3b3186d89595&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.01.28-15.31.55:913][  9]LogHttp: Warning: 0000023938B21600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.01.28-15.31.55:913][  9]LogHttp: Warning: 0000023938B21600: libcurl info message cache 0 (Connection 1 seems to be dead!)
+[2024.01.28-15.31.55:913][  9]LogHttp: Warning: 0000023938B21600: libcurl info message cache 1 (Closing connection 1)
+[2024.01.28-15.31.55:913][  9]LogHttp: Warning: 0000023938B21600: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.01.28-15.31.55:913][  9]LogHttp: Warning: 0000023938B21600: libcurl info message cache 3 (Closing connection 2)
+[2024.01.28-15.31.55:942][ 10]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8BDD0CF6-4715-BC67-9CFC-7188DF16EDAE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d274dbcc4ca26f6f30b7179ba7275ba6%7Cf9a660c55ff1473ca73e5b3f7e22dae3%7C936f4b4e-8cf5-447f-850e-3b3186d89595&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.01.28-15.31.56:880][ 12]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2024.01.28-15.31.56:880][ 12]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2024.01.28-15.31.56:880][ 12]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2024.01.28-15.31.57:011][ 12]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.01.28-15.32.13:642][ 36]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{602b7306-a8ff-4171-b67f-7d00e1f3a2c8}.
+[2024.01.28-15.32.13:642][ 36]LogAudioMixer: Resetting audio stream to device id 
+[2024.01.28-15.32.13:690][ 36]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.28-15.32.13:690][ 36]LogAudioMixer: Display: 1: FrontRight
+[2024.01.28-15.33.23:048][241]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2024.01.28-15.33.23:067][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-15.33.23:068][241]PIE: New page: PIE session: MainMenuLevel (Jan 28, 2024, 3:33:23 AM)
+[2024.01.28-15.33.23:068][241]LogPlayLevel: Creating play world package: /Game/MakeMeLaugh/Levels/UEDPIE_0_MainMenuLevel
+[2024.01.28-15.33.23:069][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001156s)
+[2024.01.28-15.33.23:070][241]LogAIModule: Creating AISystem for world MainMenuLevel
+[2024.01.28-15.33.23:070][241]LogPlayLevel: PIE: World Init took: (0.001335s)
+[2024.01.28-15.33.23:070][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MakeMeLaugh/Levels/MainMenuLevel.MainMenuLevel to /Game/MakeMeLaugh/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.002630s)
+[2024.01.28-15.33.23:105][241]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2024.01.28-15.33.23:105][241]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.01.28-15.33.23:105][241]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-15.33.23:105][241]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-15.33.23:105][241]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-15.33.23:105][241]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-15.33.23:106][241]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.28-15.33.23:106][241]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-15.33.23:106][241]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.28-15.33.23:106][241]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-15.33.23:107][241]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-15.33.23:107][241]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-15.33.23:107][241]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-15.33.23:107][241]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.28-15.33.23:119][241]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.28-15.33.23:119][241]LogAudioMixer: Display: 1: FrontRight
+[2024.01.28-15.33.23:213][241]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2024.01.28-15.33.23:213][241]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-15.33.23:214][241]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-15.33.23:214][241]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-15.33.23:216][241]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.28-15.33.23:216][241]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.28-15.33.23:216][241]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.28-15.33.23:217][241]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.28-15.33.23:217][241]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.28-15.33.23:217][241]LogInit: FAudioDevice initialized.
+[2024.01.28-15.33.23:217][241]LogAudio: Display: Audio Device (ID: 22) registered with world 'MainMenuLevel'.
+[2024.01.28-15.33.23:263][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-15.33.23:263][241]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2024.01.28-15.33.23:264][241]LogWorld: Bringing World /Game/MakeMeLaugh/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2024.01.28-09.33.23
+[2024.01.28-15.33.23:265][241]LogWorld: Bringing up level for play took: 0.000656
+[2024.01.28-15.33.23:265][241]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2024.01.28-15.33.23:270][241]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.28-15.33.23:270][241]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.01.28-15.33.23:276][241]PIE: Server logged in
+[2024.01.28-15.33.23:281][241]PIE: Play in editor total start time 0.215 seconds.
+[2024.01.28-15.33.23:281][241]LogPlayLevel: Creating play world package: /Game/MakeMeLaugh/Levels/UEDPIE_1_MainMenuLevel
+[2024.01.28-15.33.23:282][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001163s)
+[2024.01.28-15.33.23:283][241]LogAIModule: Creating AISystem for world MainMenuLevel
+[2024.01.28-15.33.23:283][241]LogPlayLevel: PIE: World Init took: (0.001450s)
+[2024.01.28-15.33.23:283][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MakeMeLaugh/Levels/MainMenuLevel.MainMenuLevel to /Game/MakeMeLaugh/Levels/UEDPIE_1_MainMenuLevel.MainMenuLevel (0.002767s)
+[2024.01.28-15.33.23:322][241]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2024.01.28-15.33.23:322][241]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.01.28-15.33.23:322][241]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-15.33.23:322][241]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-15.33.23:322][241]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-15.33.23:322][241]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-15.33.23:323][241]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.28-15.33.23:323][241]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-15.33.23:323][241]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.28-15.33.23:323][241]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-15.33.23:324][241]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-15.33.23:325][241]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-15.33.23:325][241]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-15.33.23:325][241]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.28-15.33.23:336][241]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.28-15.33.23:336][241]LogAudioMixer: Display: 1: FrontRight
+[2024.01.28-15.33.23:433][241]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2024.01.28-15.33.23:434][241]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-15.33.23:434][241]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-15.33.23:434][241]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-15.33.23:436][241]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.28-15.33.23:436][241]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.28-15.33.23:436][241]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.28-15.33.23:437][241]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.28-15.33.23:437][241]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.28-15.33.23:437][241]LogInit: FAudioDevice initialized.
+[2024.01.28-15.33.23:437][241]LogAudio: Display: Audio Device (ID: 23) registered with world 'MainMenuLevel'.
+[2024.01.28-15.33.23:500][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-15.33.23:500][241]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2024.01.28-15.33.23:501][241]LogWorld: Bringing World /Game/MakeMeLaugh/Levels/UEDPIE_1_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2024.01.28-09.33.23
+[2024.01.28-15.33.23:501][241]LogWorld: Bringing up level for play took: 0.000504
+[2024.01.28-15.33.23:502][241]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2024.01.28-15.33.23:505][241]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.28-15.33.23:505][241]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.01.28-15.33.23:511][241]PIE: Server logged in
+[2024.01.28-15.33.23:518][241]PIE: Play in editor total start time 0.452 seconds.
+[2024.01.28-15.33.34:706][425]LogSlate: Window 'MakeMeLaugh3 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2024.01.28-15.33.34:799][425]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-15.33.34:799][425]LogWorld: BeginTearingDown for /Game/MakeMeLaugh/Levels/UEDPIE_1_MainMenuLevel
+[2024.01.28-15.33.34:800][425]LogSlate: Window 'MakeMeLaugh3 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2024.01.28-15.33.34:811][425]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-15.33.34:811][425]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-15.33.34:834][425]LogWorld: BeginTearingDown for /Game/MakeMeLaugh/Levels/UEDPIE_0_MainMenuLevel
+[2024.01.28-15.33.34:835][425]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-15.33.34:835][425]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-15.33.34:851][425]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-15.33.34:856][425]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-15.33.34:902][425]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.28-15.33.34:903][425]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.28-15.33.34:911][425]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.28-15.33.34:916][425]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.28-15.33.34:929][425]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2024.01.28-15.33.34:976][426]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.01.28-15.33.34:976][426]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.01.28-15.33.36:484][465]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2024.01.28-15.33.36:499][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-15.33.36:499][465]PIE: New page: PIE session: MainMenuLevel (Jan 28, 2024, 3:33:36 AM)
+[2024.01.28-15.33.36:499][465]LogPlayLevel: Creating play world package: /Game/MakeMeLaugh/Levels/UEDPIE_0_MainMenuLevel
+[2024.01.28-15.33.36:501][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002116s)
+[2024.01.28-15.33.36:503][465]LogAIModule: Creating AISystem for world MainMenuLevel
+[2024.01.28-15.33.36:503][465]LogPlayLevel: PIE: World Init took: (0.001933s)
+[2024.01.28-15.33.36:504][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MakeMeLaugh/Levels/MainMenuLevel.MainMenuLevel to /Game/MakeMeLaugh/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.004302s)
+[2024.01.28-15.33.36:539][465]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2024.01.28-15.33.36:540][465]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2024.01.28-15.33.36:540][465]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-15.33.36:540][465]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-15.33.36:540][465]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-15.33.36:540][465]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-15.33.36:540][465]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.28-15.33.36:540][465]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-15.33.36:540][465]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.28-15.33.36:540][465]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-15.33.36:541][465]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-15.33.36:541][465]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-15.33.36:541][465]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-15.33.36:541][465]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.28-15.33.36:550][465]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.28-15.33.36:550][465]LogAudioMixer: Display: 1: FrontRight
+[2024.01.28-15.33.36:650][465]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2024.01.28-15.33.36:650][465]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-15.33.36:650][465]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-15.33.36:650][465]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-15.33.36:651][465]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.28-15.33.36:651][465]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.28-15.33.36:651][465]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.28-15.33.36:652][465]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.28-15.33.36:652][465]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.28-15.33.36:652][465]LogInit: FAudioDevice initialized.
+[2024.01.28-15.33.36:653][465]LogAudio: Display: Audio Device (ID: 24) registered with world 'MainMenuLevel'.
+[2024.01.28-15.33.36:710][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-15.33.36:710][465]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2024.01.28-15.33.36:711][465]LogWorld: Bringing World /Game/MakeMeLaugh/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2024.01.28-09.33.36
+[2024.01.28-15.33.36:712][465]LogWorld: Bringing up level for play took: 0.000643
+[2024.01.28-15.33.36:712][465]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2024.01.28-15.33.36:717][465]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.28-15.33.36:717][465]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.01.28-15.33.36:722][465]PIE: Server logged in
+[2024.01.28-15.33.36:729][465]PIE: Play in editor total start time 0.232 seconds.
+[2024.01.28-15.33.36:729][465]LogPlayLevel: Creating play world package: /Game/MakeMeLaugh/Levels/UEDPIE_1_MainMenuLevel
+[2024.01.28-15.33.36:731][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001293s)
+[2024.01.28-15.33.36:731][465]LogAIModule: Creating AISystem for world MainMenuLevel
+[2024.01.28-15.33.36:732][465]LogPlayLevel: PIE: World Init took: (0.001174s)
+[2024.01.28-15.33.36:732][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MakeMeLaugh/Levels/MainMenuLevel.MainMenuLevel to /Game/MakeMeLaugh/Levels/UEDPIE_1_MainMenuLevel.MainMenuLevel (0.002609s)
+[2024.01.28-15.33.36:769][465]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2024.01.28-15.33.36:769][465]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.01.28-15.33.36:769][465]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-15.33.36:769][465]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-15.33.36:769][465]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-15.33.36:769][465]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-15.33.36:769][465]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.28-15.33.36:769][465]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-15.33.36:769][465]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.28-15.33.36:769][465]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-15.33.36:770][465]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-15.33.36:770][465]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-15.33.36:770][465]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-15.33.36:770][465]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.28-15.33.36:779][465]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.28-15.33.36:779][465]LogAudioMixer: Display: 1: FrontRight
+[2024.01.28-15.33.36:885][465]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2024.01.28-15.33.36:886][465]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-15.33.36:886][465]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-15.33.36:886][465]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-15.33.36:886][465]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.28-15.33.36:886][465]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.28-15.33.36:886][465]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.28-15.33.36:887][465]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.28-15.33.36:887][465]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.28-15.33.36:887][465]LogInit: FAudioDevice initialized.
+[2024.01.28-15.33.36:887][465]LogAudio: Display: Audio Device (ID: 25) registered with world 'MainMenuLevel'.
+[2024.01.28-15.33.36:945][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-15.33.36:946][465]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2024.01.28-15.33.36:948][465]LogWorld: Bringing World /Game/MakeMeLaugh/Levels/UEDPIE_1_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2024.01.28-09.33.36
+[2024.01.28-15.33.36:949][465]LogWorld: Bringing up level for play took: 0.000529
+[2024.01.28-15.33.36:949][465]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2024.01.28-15.33.36:955][465]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.28-15.33.36:955][465]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.01.28-15.33.36:961][465]PIE: Server logged in
+[2024.01.28-15.33.36:969][465]PIE: Play in editor total start time 0.472 seconds.
+[2024.01.28-15.33.45:551][617]LogRenderer: Reallocating scene render targets to support 1920x1008 Format 10 NumSamples 1 (Frame:153).
+[2024.01.28-15.33.48:037][648]LogHttp: Warning: 00000239355EEB00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8BDD0CF6-4715-BC67-9CFC-7188DF16EDAE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d274dbcc4ca26f6f30b7179ba7275ba6%7Cf9a660c55ff1473ca73e5b3f7e22dae3%7C936f4b4e-8cf5-447f-850e-3b3186d89595&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 0 (  Trying 52.3.199.14...)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 1 (TCP_NODELAY set)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 2 (connect to 52.3.199.14 port 443 failed: Timed out)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 3 (  Trying 23.20.190.138...)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 4 (TCP_NODELAY set)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 5 (After 19484ms connect time, move on!)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 6 (connect to 23.20.190.138 port 443 failed: Timed out)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 7 (  Trying 18.209.10.121...)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 8 (TCP_NODELAY set)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 9 (After 9742ms connect time, move on!)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 10 (connect to 18.209.10.121 port 443 failed: Timed out)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 11 (  Trying 23.20.137.89...)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 12 (TCP_NODELAY set)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 13 (After 4867ms connect time, move on!)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 14 (connect to 23.20.137.89 port 443 failed: Timed out)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 15 (  Trying 54.147.100.34...)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 16 (TCP_NODELAY set)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 17 (After 2430ms connect time, move on!)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 18 (connect to 54.147.100.34 port 443 failed: Timed out)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 19 (  Trying 3.219.214.145...)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 20 (TCP_NODELAY set)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 21 (After 1211ms connect time, move on!)
+[2024.01.28-15.33.48:038][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 22 (connect to 3.219.214.145 port 443 failed: Timed out)
+[2024.01.28-15.33.48:039][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 23 (  Trying 44.195.112.84...)
+[2024.01.28-15.33.48:039][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 24 (TCP_NODELAY set)
+[2024.01.28-15.33.48:039][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 25 (After 601ms connect time, move on!)
+[2024.01.28-15.33.48:039][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 26 (connect to 44.195.112.84 port 443 failed: Timed out)
+[2024.01.28-15.33.48:039][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 27 (  Trying 3.85.72.170...)
+[2024.01.28-15.33.48:039][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 28 (TCP_NODELAY set)
+[2024.01.28-15.33.48:039][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 29 (After 297ms connect time, move on!)
+[2024.01.28-15.33.48:039][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 30 (connect to 3.85.72.170 port 443 failed: Timed out)
+[2024.01.28-15.33.48:039][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 31 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2024.01.28-15.33.48:039][648]LogHttp: Warning: 00000239355EEB00: libcurl info message cache 32 (Closing connection 3)
+[2024.01.28-15.33.48:039][648]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8BDD0CF6-4715-BC67-9CFC-7188DF16EDAE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d274dbcc4ca26f6f30b7179ba7275ba6%7Cf9a660c55ff1473ca73e5b3f7e22dae3%7C936f4b4e-8cf5-447f-850e-3b3186d89595&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.01.28-15.34.32:829][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-15.34.32:829][213]LogWorld: BeginTearingDown for /Game/MakeMeLaugh/Levels/UEDPIE_1_MainMenuLevel
+[2024.01.28-15.34.32:829][213]LogSlate: Window 'MakeMeLaugh3 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2024.01.28-15.34.32:907][213]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-15.34.32:907][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-15.34.32:971][213]LogWorld: BeginTearingDown for /Game/MakeMeLaugh/Levels/UEDPIE_0_MainMenuLevel
+[2024.01.28-15.34.32:971][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-15.34.32:971][213]LogSlate: Window 'MakeMeLaugh3 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2024.01.28-15.34.32:981][213]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-15.34.32:981][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-15.34.32:993][213]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-15.34.33:001][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-15.34.33:044][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.28-15.34.33:046][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.28-15.34.33:051][213]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.28-15.34.33:052][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.28-15.34.33:053][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.28-15.34.33:065][213]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.01.28-15.34.33:089][214]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.01.28-15.34.33:089][214]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.01.28-15.34.47:961][557]LogHttp: Warning: 00000239313AC100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8BDD0CF6-4715-BC67-9CFC-7188DF16EDAE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d274dbcc4ca26f6f30b7179ba7275ba6%7Cf9a660c55ff1473ca73e5b3f7e22dae3%7C936f4b4e-8cf5-447f-850e-3b3186d89595&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.01.28-15.34.47:961][557]LogHttp: Warning: 00000239313AC100: request failed, libcurl error: 7 (Couldn't connect to server)
+[2024.01.28-15.34.47:961][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 0 (  Trying 23.20.190.138...)
+[2024.01.28-15.34.47:961][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 1 (TCP_NODELAY set)
+[2024.01.28-15.34.47:961][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 2 (connect to 23.20.190.138 port 443 failed: Timed out)
+[2024.01.28-15.34.47:961][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 3 (  Trying 35.173.142.62...)
+[2024.01.28-15.34.47:961][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 4 (TCP_NODELAY set)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 5 (After 19484ms connect time, move on!)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 6 (connect to 35.173.142.62 port 443 failed: Timed out)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 7 (  Trying 3.82.72.174...)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 8 (TCP_NODELAY set)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 9 (After 9742ms connect time, move on!)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 10 (connect to 3.82.72.174 port 443 failed: Timed out)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 11 (  Trying 52.73.115.20...)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 12 (TCP_NODELAY set)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 13 (After 4867ms connect time, move on!)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 14 (connect to 52.73.115.20 port 443 failed: Timed out)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 15 (  Trying 100.24.143.94...)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 16 (TCP_NODELAY set)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 17 (After 2429ms connect time, move on!)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 18 (connect to 100.24.143.94 port 443 failed: Timed out)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 19 (  Trying 3.219.105.120...)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 20 (TCP_NODELAY set)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 21 (After 1211ms connect time, move on!)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 22 (connect to 3.219.105.120 port 443 failed: Timed out)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 23 (  Trying 44.194.145.144...)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 24 (TCP_NODELAY set)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 25 (After 601ms connect time, move on!)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 26 (connect to 44.194.145.144 port 443 failed: Timed out)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 27 (  Trying 23.20.137.89...)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 28 (TCP_NODELAY set)
+[2024.01.28-15.34.47:962][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 29 (After 297ms connect time, move on!)
+[2024.01.28-15.34.47:963][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 30 (connect to 23.20.137.89 port 443 failed: Timed out)
+[2024.01.28-15.34.47:963][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 31 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2024.01.28-15.34.47:963][557]LogHttp: Warning: 00000239313AC100: libcurl info message cache 32 (Closing connection 4)
+[2024.01.28-15.34.48:005][558]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8BDD0CF6-4715-BC67-9CFC-7188DF16EDAE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d274dbcc4ca26f6f30b7179ba7275ba6%7Cf9a660c55ff1473ca73e5b3f7e22dae3%7C936f4b4e-8cf5-447f-850e-3b3186d89595&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.01.28-15.35.47:965][905]LogHttp: Warning: 00000239355ED600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8BDD0CF6-4715-BC67-9CFC-7188DF16EDAE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d274dbcc4ca26f6f30b7179ba7275ba6%7Cf9a660c55ff1473ca73e5b3f7e22dae3%7C936f4b4e-8cf5-447f-850e-3b3186d89595&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.01.28-15.35.47:965][905]LogHttp: Warning: 00000239355ED600: request failed, libcurl error: 7 (Couldn't connect to server)
+[2024.01.28-15.35.47:965][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2024.01.28-15.35.47:965][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 1 (  Trying 18.213.80.238...)
+[2024.01.28-15.35.47:965][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 2 (TCP_NODELAY set)
+[2024.01.28-15.35.47:965][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 3 (connect to 18.213.80.238 port 443 failed: Timed out)
+[2024.01.28-15.35.47:965][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 4 (  Trying 107.22.93.74...)
+[2024.01.28-15.35.47:965][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 5 (TCP_NODELAY set)
+[2024.01.28-15.35.47:965][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 6 (After 19453ms connect time, move on!)
+[2024.01.28-15.35.47:965][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 7 (connect to 107.22.93.74 port 443 failed: Timed out)
+[2024.01.28-15.35.47:965][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 8 (  Trying 3.224.155.80...)
+[2024.01.28-15.35.47:965][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 9 (TCP_NODELAY set)
+[2024.01.28-15.35.47:965][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 10 (After 9726ms connect time, move on!)
+[2024.01.28-15.35.47:965][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 11 (connect to 3.224.155.80 port 443 failed: Timed out)
+[2024.01.28-15.35.47:965][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 12 (  Trying 3.226.61.47...)
+[2024.01.28-15.35.47:965][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 13 (TCP_NODELAY set)
+[2024.01.28-15.35.47:965][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 14 (After 4859ms connect time, move on!)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 15 (connect to 3.226.61.47 port 443 failed: Timed out)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 16 (  Trying 3.89.172.47...)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 17 (TCP_NODELAY set)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 18 (After 2429ms connect time, move on!)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 19 (connect to 3.89.172.47 port 443 failed: Timed out)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 20 (  Trying 34.237.173.247...)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 21 (TCP_NODELAY set)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 22 (After 1211ms connect time, move on!)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 23 (connect to 34.237.173.247 port 443 failed: Timed out)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 24 (  Trying 54.144.202.144...)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 25 (TCP_NODELAY set)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 26 (After 601ms connect time, move on!)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 27 (connect to 54.144.202.144 port 443 failed: Timed out)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 28 (  Trying 3.224.42.157...)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 29 (TCP_NODELAY set)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 30 (After 297ms connect time, move on!)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 31 (connect to 3.224.42.157 port 443 failed: Timed out)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 32 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2024.01.28-15.35.47:966][905]LogHttp: Warning: 00000239355ED600: libcurl info message cache 33 (Closing connection 5)
+[2024.01.28-15.35.48:007][906]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8BDD0CF6-4715-BC67-9CFC-7188DF16EDAE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d274dbcc4ca26f6f30b7179ba7275ba6%7Cf9a660c55ff1473ca73e5b3f7e22dae3%7C936f4b4e-8cf5-447f-850e-3b3186d89595&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.01.28-15.45.47:145][797]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2024.01.28-15.45.47:170][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-15.45.47:171][797]PIE: New page: PIE session: MainMenuLevel (Jan 28, 2024, 3:45:47 AM)
+[2024.01.28-15.45.47:171][797]LogPlayLevel: Creating play world package: /Game/MakeMeLaugh/Levels/UEDPIE_0_MainMenuLevel
+[2024.01.28-15.45.47:173][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002577s)
+[2024.01.28-15.45.47:175][797]LogAIModule: Creating AISystem for world MainMenuLevel
+[2024.01.28-15.45.47:175][797]LogPlayLevel: PIE: World Init took: (0.001973s)
+[2024.01.28-15.45.47:175][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MakeMeLaugh/Levels/MainMenuLevel.MainMenuLevel to /Game/MakeMeLaugh/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.004750s)
+[2024.01.28-15.45.47:205][797]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2024.01.28-15.45.47:208][797]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2024.01.28-15.45.47:209][797]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-15.45.47:209][797]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-15.45.47:209][797]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-15.45.47:209][797]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-15.45.47:209][797]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.28-15.45.47:209][797]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-15.45.47:209][797]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.28-15.45.47:209][797]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-15.45.47:209][797]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-15.45.47:209][797]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-15.45.47:209][797]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-15.45.47:209][797]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.28-15.45.47:215][797]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.28-15.45.47:215][797]LogAudioMixer: Display: 1: FrontRight
+[2024.01.28-15.45.47:306][797]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2024.01.28-15.45.47:306][797]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-15.45.47:306][797]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-15.45.47:306][797]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-15.45.47:307][797]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.28-15.45.47:307][797]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.28-15.45.47:307][797]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.28-15.45.47:308][797]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.28-15.45.47:308][797]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.28-15.45.47:308][797]LogInit: FAudioDevice initialized.
+[2024.01.28-15.45.47:309][797]LogAudio: Display: Audio Device (ID: 26) registered with world 'MainMenuLevel'.
+[2024.01.28-15.45.47:355][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-15.45.47:356][797]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2024.01.28-15.45.47:357][797]LogWorld: Bringing World /Game/MakeMeLaugh/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2024.01.28-09.45.47
+[2024.01.28-15.45.47:358][797]LogWorld: Bringing up level for play took: 0.000786
+[2024.01.28-15.45.47:358][797]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2024.01.28-15.45.47:362][797]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.28-15.45.47:362][797]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.01.28-15.45.47:368][797]PIE: Server logged in
+[2024.01.28-15.45.47:375][797]PIE: Play in editor total start time 0.208 seconds.
+[2024.01.28-15.45.47:375][797]LogPlayLevel: Creating play world package: /Game/MakeMeLaugh/Levels/UEDPIE_1_MainMenuLevel
+[2024.01.28-15.45.47:377][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001848s)
+[2024.01.28-15.45.47:379][797]LogAIModule: Creating AISystem for world MainMenuLevel
+[2024.01.28-15.45.47:379][797]LogPlayLevel: PIE: World Init took: (0.001878s)
+[2024.01.28-15.45.47:379][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MakeMeLaugh/Levels/MainMenuLevel.MainMenuLevel to /Game/MakeMeLaugh/Levels/UEDPIE_1_MainMenuLevel.MainMenuLevel (0.003936s)
+[2024.01.28-15.45.47:415][797]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2024.01.28-15.45.47:415][797]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2024.01.28-15.45.47:415][797]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-15.45.47:415][797]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-15.45.47:415][797]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-15.45.47:415][797]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-15.45.47:415][797]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.28-15.45.47:415][797]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-15.45.47:416][797]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.28-15.45.47:416][797]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-15.45.47:416][797]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-15.45.47:416][797]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-15.45.47:416][797]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-15.45.47:416][797]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.28-15.45.47:425][797]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.28-15.45.47:425][797]LogAudioMixer: Display: 1: FrontRight
+[2024.01.28-15.45.47:529][797]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2024.01.28-15.45.47:529][797]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-15.45.47:529][797]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-15.45.47:529][797]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-15.45.47:530][797]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.28-15.45.47:530][797]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.28-15.45.47:530][797]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.28-15.45.47:531][797]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.28-15.45.47:531][797]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.28-15.45.47:531][797]LogInit: FAudioDevice initialized.
+[2024.01.28-15.45.47:531][797]LogAudio: Display: Audio Device (ID: 27) registered with world 'MainMenuLevel'.
+[2024.01.28-15.45.47:593][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-15.45.47:593][797]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2024.01.28-15.45.47:595][797]LogWorld: Bringing World /Game/MakeMeLaugh/Levels/UEDPIE_1_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2024.01.28-09.45.47
+[2024.01.28-15.45.47:595][797]LogWorld: Bringing up level for play took: 0.000643
+[2024.01.28-15.45.47:595][797]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2024.01.28-15.45.47:601][797]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.28-15.45.47:601][797]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.01.28-15.45.47:604][797]PIE: Server logged in
+[2024.01.28-15.45.47:614][797]PIE: Play in editor total start time 0.447 seconds.
+[2024.01.28-15.46.17:458][180]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-15.46.17:458][180]LogWorld: BeginTearingDown for /Game/MakeMeLaugh/Levels/UEDPIE_1_MainMenuLevel
+[2024.01.28-15.46.17:458][180]LogSlate: Window 'MakeMeLaugh3 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2024.01.28-15.46.17:535][180]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-15.46.17:536][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-15.46.17:598][180]LogWorld: BeginTearingDown for /Game/MakeMeLaugh/Levels/UEDPIE_0_MainMenuLevel
+[2024.01.28-15.46.17:599][180]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-15.46.17:599][180]LogSlate: Window 'MakeMeLaugh3 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2024.01.28-15.46.17:613][180]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-15.46.17:614][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-15.46.17:626][180]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-15.46.17:633][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-15.46.17:673][180]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.28-15.46.17:674][180]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.28-15.46.17:678][180]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.28-15.46.17:688][180]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.28-15.46.17:690][180]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.28-15.46.17:693][180]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.28-15.46.17:709][180]LogUObjectHash: Compacting FUObjectHashTables data took   8.88ms
+[2024.01.28-15.46.17:734][181]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.01.28-15.46.17:734][181]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.01.28-15.52.14:177][370]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MakeMeLaugh/Blueprints/MMLLobbyGameMode.MMLLobbyGameMode
+[2024.01.28-15.52.40:836][999]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MakeMeLaugh/Blueprints/UI/LobbyMenuWidget.LobbyMenuWidget
+[2024.01.28-16.03.08:527][535]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MakeMeLaugh/Blueprints/MMLMatchGameMode.MMLMatchGameMode
+[2024.01.28-16.05.43:944][166]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MakeMeLaugh/Blueprints/Player/PlayerBlueprint.PlayerBlueprint
+[2024.01.28-16.06.42:456][305]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-16.06.42:456][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-16.07.04:021][878]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.01.28-16.07.16:364][878]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.01.28-16.07.21:205][104]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.01.28-16.07.21:226][104]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.01.28-16.07.33:194][385]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> PlayerWidget
+[2024.01.28-16.07.33:223][385]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.01.28-16.07.34:532][415]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MakeMeLaugh/Blueprints/UI/PlayerWidget.PlayerWidget
+[2024.01.28-16.27.55:934][121]LogSlate: Window 'MainMenuWidget' being destroyed
+[2024.01.28-16.27.55:957][121]LogSlate: Window 'MainMenuWidget' being destroyed
+[2024.01.28-16.27.55:991][121]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-16.27.55:991][121]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-16.27.56:009][121]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-16.27.56:009][121]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-16.27.57:663][152]LogSlate: Window 'PlayerWidget' being destroyed
+[2024.01.28-16.27.57:671][152]LogSlate: Window 'PlayerWidget' being destroyed
+[2024.01.28-16.27.57:687][152]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.01.28-16.27.57:687][152]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-16.27.57:687][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-16.27.57:912][152]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-16.27.57:913][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-16.27.57:921][152]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-16.27.57:921][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-16.27.57:973][152]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.01.28-16.27.57:973][152]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-16.27.57:973][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-16.27.58:037][152]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-16.27.58:038][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-16.27.58:044][152]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-16.27.58:044][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-16.28.16:272][691]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/MakeMeLaugh/Images/El-juego-donde-los-jugadores-t-1-28-2024.El-juego-donde-los-jugadores-t-1-28-2024
+[2024.01.28-16.28.16:362][691]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TextureEditor' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2024.01.28-16.28.25:212][861]LogSlate: Window 'El-juego-donde-los-jugadores-t-1-28-2024' being destroyed
+[2024.01.28-16.28.25:228][861]LogSlate: Window 'El-juego-donde-los-jugadores-t-1-28-2024' being destroyed
+[2024.01.28-16.31.51:970][920]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MakeMeLaugh/Blueprints/UI/PlayerWidget.PlayerWidget
+[2024.01.28-16.37.10:823][571]BlueprintLog: New page: Compile PlayerWidget
+[2024.01.28-16.37.11:080][571]LogUObjectHash: Compacting FUObjectHashTables data took   7.83ms
+[2024.01.28-16.37.12:738][610]LogSavePackage: Moving '../../../../Unreal Projects/Git GGJ/GGJ-2024/MakeMeLaugh/Saved/PlayerWidgetE520F6454127E0C55E933D8173932829.tmp' to '../../../../Unreal Projects/Git GGJ/GGJ-2024/MakeMeLaugh/Content/MakeMeLaugh/Blueprints/UI/PlayerWidget.uasset'
+[2024.01.28-16.37.12:760][610]AssetCheck: New page: Asset Save: PlayerWidget
+[2024.01.28-16.37.12:760][610]LogContentValidation: Display: Validating WidgetBlueprint /Game/MakeMeLaugh/Blueprints/UI/PlayerWidget.PlayerWidget
+[2024.01.28-16.37.17:507][714]LogSlate: Window 'PlayerWidget' being destroyed
+[2024.01.28-16.37.17:527][714]LogSlate: Window 'PlayerWidget' being destroyed
+[2024.01.28-16.37.17:537][714]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-16.37.17:537][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-16.37.17:570][714]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-16.37.17:571][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
